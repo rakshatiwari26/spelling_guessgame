@@ -13,30 +13,6 @@ body {
   margin: 0;
 }
 
-/* nav {
-  height: 60px;
-  width: 100%;
-  margin: 0;
-  border-bottom: 1px solid grey;
-  display: grid;
-  place-items: center;
-} */
-
- .h3{
-  margin: 0;
-  text-align: center;
-  font-family: Helvetica, Arial, sans-serif;
-  color: black;
-  font-size: 10px;
-}
-.game {
-  width: 100vw;
-  height: calc(100vh - 170px);
-  display: flex;
-  align-items: center;
-  padding-top: 50px;
-  flex-direction: column;
-}
 
 .board {
   margin: 45px;
@@ -68,17 +44,6 @@ body {
   background-color: #efefad;
 }
 
-#correct {
-  background-color: #528d4e;
-}
-
-#almost {
-  background-color: #b49f39;
-}
-
-#error {
-  background-color: #3a393c;
-}
 
 .keyboard {
   width: 500px;
@@ -121,28 +86,4 @@ body {
   color: black !important;
   font-family: Arial, Helvetica, sans-serif;
   cursor: pointer;
-}
-.score{
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  padding-top: 50px;
-  flex-direction: column;
-}
-  .table, th, td {
-    border: 1px solid white;
-    border-collapse: collapse;
-  }
-  .tb {
-    width: 100vw;
-    display: flex;
-    align-items: end;
-    padding-top: 50px;
-    flex-direction: column;
-  }
-
-
-
-#disabled {
-  background-color: #3a393c;
 }
